@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Portfolio</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+     <link rel="stylesheet" href="styles.css">
+     <script type="text/javascript" src="/script.js"></script>
+     <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init(publicKey);
+   })();
+</script>
+</head>
+<body>
+     <nav>
+          <div id="profile">
+
+               <img src="./kenny pass.jpg" alt="">
+               <h3>PAUL AKINTUNDE</h3>
+          </div>
+          <i class="fa-solid fa-bars" id="menu-icon"></i>
+         <ul id="nav-list">
+          <i class="fa-solid fa-xmark" id="close-icon"></i>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+         </ul>
+     </nav>
+     <article>
+          <div id="home">
+               <div>
+                    <h1>HEY, I'M PAUL AKINTUNDE</h1>
+                    <p>A Entry-level Fullstack Web Developer interested in building Web Applications that lead to the success of the products</p>
+                    <button type="button">PROJECTS</button>
+               </div>
+          </div>
+          <div id="about">
+               <h3>ABOUT ME</h3>
+               <div id="underline"></div>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est at saepe, libero error repudiandae commodi dolorum, nisi eveniet corporis natus amet nobis veritatis blanditiis iste sequi aspernatur maxime porro exercitationem non, dignissimos nam inventore optio unde. Quasi, nihil maxime harum praesentium ex ipsa delectus exercitationem, at nesciunt corporis eum magni.</p>
+          </div>
+          <div id="skills">
+               <h3>SKILLS</h3>
+               <div id="underline" style="width: 70px; height: 5px; margin-bottom: 30px;
+     background-color: brown;"></div>
+               <div id="skill-body">
+                    <ul id="hard-skills">
+                         <h4 style="text-align: center;">Hard Skills</h4>
+                         <li>
+                              <b>Programming Skills</b> - HTML, CSS, Javascript, jQuery, React and Redux, Bootstrap,
+                              TailwindCSS, PHP, Node.js, Python, Django
+                         </li>
+                         <li>
+                              <b>Database</b> - MySQL, PostgreSQL, SQLite and MongoDB
+                         </li>
+                         <li>
+                              <b>Systems</b> - Windows and MacOS
+                         </li>
+                         <li>
+                              <b>IDEs</b> - Visual Studio Code
+                         </li>
+                         <li>
+                              Expertise with RESTful services and APIs
+                         </li>
+                         <li>
+                              Knowledge of Git for code versioning
+                         </li>
+                         <li>
+                              Testing and Debugging
+                         </li>
+                         
+                    </ul>
+                    
+                    <ul id="soft-skills">
+                         <h4 style="text-align: center;">Soft Skills</h4>
+                         <li>
+                              Ability to collaborate and work together with team
+                         </li>
+                         <li>
+                              Empathy, patience, humility,and open-mindedness
+                         </li>
+                         <li>
+                              Fast Learner
+                         </li>
+                         <li>
+                              Excellent communication, time-management and problem-solving skills
+                         </li>
+                    </ul>
+               </div>
+          </div>
+          <div id="projects">
+               <h3>PROJECTS</h3>
+               <div id="underline" style="width: 100px; height: 5px; margin-bottom: 30px;
+     background-color: brown;"></div>
+               <div id="projects-grid">
+                    <div class="each-grid">
+                         <img src="" alt="each-grid-1">
+                         <h5>Blogging website</h5>
+                         <p>I built a blogging website wher people can read articles on the internet. 
+                              <!-- It is a blogging platform like Medium. Also, admins can upload images and photos. -->
+
+                         </p>
+                    </div>
+                    <div class="each-grid">
+                         <img src="" alt="each-grid-1">
+                         <h5>Blogging website</h5>
+                         <p>I built a blogging website wher people can read articles on the internet. It is a blogging platform like Medium. Also, admins can upload images and photos.</p>
+                    </div>
+                    <div class="each-grid">
+                         <img src="" alt="each-grid-1">
+                         <h5>Blogging website</h5>
+                         <p>I built a blogging website wher people can read articles on the internet. It is a blogging platform like Medium. Also, admins can upload images and photos.</p>
+                    </div>
+                    <div class="each-grid">
+                         <img src="" alt="each-grid-1">
+                         <h5>Blogging website</h5>
+                         <p>I built a blogging website wher people can read articles on the internet. It is a blogging platform like Medium. Also, admins can upload images and photos.</p>
+                    </div>
+                    <div class="each-grid">
+                         <img src="" alt="each-grid-1">
+                         <h5>Blogging website</h5>
+                         <p>I built a blogging website wher people can read articles on the internet. It is a blogging platform like Medium. Also, admins can upload images and photos.</p>
+                    </div>
+                    <div class="each-grid">
+                         <img src="" alt="each-grid-1">
+                         <h5>Blogging website</h5>
+                         <p>I built a blogging website wher people can read articles on the internet. It is a blogging platform like Medium. Also, admins can upload images and photos.</p>
+                    </div>
+               </div>
+          </div>
+          <div id="contact">
+               <h3>CONTACT</h3>
+                <div id="underline" style="width: 100px; height: 5px; margin-bottom: 30px;
+     background-color: brown;"></div>
+               <form action="" method="post">
+
+                    <label for="name">Name</label> <br>
+                         <input type="text" name="name" id="name" placeholder="name"> 
+                    <label for="email">Email</label> <br>
+                         <input type="email" name="email" id="email" placeholder="email"> 
+                         <label for="message">Message</label> <br>
+                         <textarea name="" id="message" cols="30" rows="10" placeholder="message"></textarea> <br>
+                         <button onclick="sendMail()">Submit</button>
+               </form>
+          </div>
+          
+          <footer>
+               <a href="https://instagram.com/paulakintunde695?igshid=MmVlMjlkMTBhMg==" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram" style="color: #ff0000;"></i></a>
+               <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-whatsapp" style="color: #008000;"></i></a>
+               <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-facebook"
+                         style="color: rgb(60, 60, 228)"></i></a>
+               <a href="https://twitter.com/PaulAkintunde4?t=ldj5nFPY2pcZdfe7WKKXxg&s=09" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-x-twitter" style="color: #000000;"></i></a>
+               <a href="https://www.linkedin.com/in/akintunde-kehinde-904a61167?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"
+                         style="color: rgb(29, 29, 148)"></i></a>
+               <a href="https://github.com/paulakintunde06" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
+          </footer>
+          <!-- https://instagram.com/paulakintunde695?igshid=MmVlMjlkMTBhMg==
+
+https://twitter.com/PaulAkintunde4?t=ldj5nFPY2pcZdfe7WKKXxg&s=09
+
+https://github.com/paulakintunde06
+
+https://www.linkedin.com/in/akintunde-kehinde-904a61167?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app -->
+
+     </article>
+<script src="/index.js" type="text/javascript"></script>
+</body>
+</html>
