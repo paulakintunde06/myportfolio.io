@@ -1,10 +1,17 @@
+import { serviceID, templateID, publicKey} from "./confidential.js";
 
 const menuIcon = document.getElementById("menu-icon");
 const closeIcon = document.getElementById("close-icon");
 const navList = document.getElementById("nav-list");
 
+// window.addEventListener("DOMContentLoaded", function () {
+if (window.screen.width > "1100px") {
+          console.log("I'm alive!")
+          menuIcon.style.display = "none";
+          closeIcon.style.display = "none";
+     }
+// })
 menuIcon.addEventListener("click", (e) => {
-     console.log("I'm clicked")
      navList.style.display = "block";
      menuIcon.style.display = "none";
 })

@@ -1,4 +1,5 @@
-import { serviceID, templateID, publicKey } from "./confidential";
+import { serviceID, templateID, publicKey} from "./confidential.js";
+
 function sendMail() {
      var params = {
           name: document.getElementById("name").value,

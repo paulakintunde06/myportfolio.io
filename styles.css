@@ -19,20 +19,21 @@ nav{
      top: 0;
      z-index: 100;
 }
+#menu-icon, #close-icon{
+     display: none;
+}
 nav > i{
      color: brown; 
      font-size: 25px; 
      margin-top: 30px; 
      cursor: pointer;
-     display: none; 
      
 }
-nav > ul > i{
+#nav-list > i{
      color: brown; 
      font-size: 25px; 
      margin-top: 20px; 
      cursor: pointer;
-     display: none;
 }
 
 #profile{
@@ -53,7 +54,7 @@ img{
      border-radius: 50%;
      /* height: ; */
 }
-nav ul{
+#nav-list{
      display: flex;
      list-style: none;
      padding: 15px;
@@ -275,7 +276,10 @@ nav > i{
      margin-right: 10px;
 }
 
-nav > ul{
+#menu-icon, #close-icon{
+     display: block;
+}
+#nav-list{
      position: relative;
      top: 40px;
      right: 2px;
