@@ -170,12 +170,12 @@ a{
      padding: 100px 10%;
      overflow-y: scroll;
 }
-#skills-underline{
+/* #skills-underline{
      width: 100px;
      height: 5px;
      margin-bottom: 30px;
      background-color: brown;
-}
+} */
 #skills > h3{
      /* text-align: center; */
      margin-bottom: 10px;
@@ -274,6 +274,35 @@ a{
      cursor: pointer;
 }
 
+footer {
+     position: fixed;
+     bottom: 5%;
+     left: 15px;
+     display: flex;
+     flex-direction: column;
+     /* margin-top: 3600px; */
+     height: 240px;
+     width: 35px;
+     /* background: rgb(236, 30, 30); */
+     z-index: 1000;
+     border-radius: 5px;
+     border: 2px thin brown;
+}
+
+footer a {
+     /* position: relative; */
+     width: 99%;
+     height: 39px;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+footer i {
+     width: 99%;
+     /* height: 50px; */
+     font-size: 35px;
+}
 
 @media screen and (max-width: 1100px){
 nav{
@@ -282,10 +311,11 @@ nav{
 }
 nav > i{
      display: block;
+     /* font-size: 300px; */
      margin-right: 10px;
 }
 
-#menu-icon, #close-icon{
+#close-icon{
      display: block;
 }
 #nav-list{
@@ -344,35 +374,4 @@ nav > ul > i:hover{
 }
 
 
-#about{
-}
 
-
-footer{
-     position: fixed;
-     bottom: 5%;
-     left: 15px;
-     display: flex;
-     flex-direction: column;
-     /* margin-top: 3600px; */
-     height: 240px;
-     width: 35px;
-     /* background: rgb(236, 30, 30); */
-     z-index: 1000;
-     border-radius: 5px;
-     border: 2px thin brown;
-}
-
-footer a{
-     /* position: relative; */
-     width: 99%;
-     height: 39px;
-     margin: 0;
-          padding: 0;
-          box-sizing: border-box;
-}
-footer i{
-     width: 99%;
-     /* height: 50px; */
-     font-size: 35px;
-}

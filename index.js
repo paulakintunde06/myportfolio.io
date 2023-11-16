@@ -1,4 +1,4 @@
-import { serviceID, templateID, publicKey} from "./confidential.js";
+// import { serviceID, templateID, publicKey} from "./confidential.js";
 
 const menuIcon = document.getElementById("menu-icon");
 const closeIcon = document.getElementById("close-icon");
