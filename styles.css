@@ -8,26 +8,26 @@
      
 } */
 nav{
-     width: 100%;
-     height: 100px;
+     width: 100vw;
+     min-height: 100px;
      background-color: antiquewhite;
      line-height: 50px;
      padding: 10px 10%;
      display: flex;
      justify-content: space-between;
+     flex-wrap: wrap;
      position: fixed;
      top: 0;
      z-index: 100;
 }
-#menu-icon, #close-icon{
+/* #menu-icon, #close-icon{
      display: none;
-}
+} */
 nav > i{
      color: brown; 
      font-size: 25px; 
      margin-top: 30px; 
      cursor: pointer;
-     
 }
 #nav-list > i{
      color: brown; 
@@ -40,6 +40,7 @@ nav > i{
      height: 100%;
      display: flex;
      justify-content: space-around;
+     
      
 }
 #profile h3{
@@ -300,7 +301,6 @@ footer a {
 
 footer i {
      width: 99%;
-     /* height: 50px; */
      font-size: 35px;
 }
 
@@ -308,58 +308,17 @@ footer i {
 nav{
      padding-left: 0%;
      padding-right: 0%;
-}
-nav > i{
-     display: block;
-     /* font-size: 300px; */
-     margin-right: 10px;
+     line-height: 20px;
 }
 
-#close-icon{
-     display: block;
-}
-#nav-list{
-     position:absolute;
-     top: 40px;
-     right: 2px;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     background-color: rgb(240, 203, 203);
-     height: 250px;
-     width: 25%;
-     margin-right: 2px;
-     display: none;
-     padding: 0px;
-     color: white;
-     padding-top: 40px;
-}
-#nav-list > li{
-     cursor: pointer;
+ #nav-list{
      width: 100%;
-     height: 20%;
-     text-align: center;
-     color: white;
-     /* z-index: 1000; */
-     /* background-color: rgb(236, 216, 216); */
-}
-#nav-list > i{
-     /* position: fixed;
-     top: 2px;
-     right: 2px; */
-     height: 25px;
-     width: 25px;
-     padding: 2px;
-     position: absolute;
-     top: -15px;
-     right: 15px;
-}
-nav > ul > li:hover{
-     background-color: rgb(241, 172, 172);
-}
-nav > ul > i:hover{
-     
-     background-color: rgb(241, 172, 172);
+     margin-right: 0px;
+  
+} 
+#nav-list > li{
+     width: 18%;
+     font-size: 1em;
 }
 
 #home,#about,#skills,#projects,#contact{
@@ -373,5 +332,9 @@ nav > ul > i:hover{
 
 }
 
-
+@media screen and (max-width: 700px){
+#nav-list > li{
+     font-size: 0.7em;
+}
+}
 
